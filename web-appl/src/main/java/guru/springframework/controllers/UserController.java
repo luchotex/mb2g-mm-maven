@@ -5,7 +5,7 @@ import guru.springframework.entities.User;
 
 public class UserController {
 
-    User saveUser(UserCommand command) {
+    public User saveUser(UserCommand userCommand){
         //fake impl
         return new User();
     }
